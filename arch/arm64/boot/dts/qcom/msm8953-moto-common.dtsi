@@ -82,6 +82,9 @@
 	/delete-node/ spi@78b7000;
 	/delete-node/ adv_vreg;
 	/delete-node/ sound-9335;
+	/delete-node/ wsa881x_analog_vi_gpio;
+	/delete-node/ wsa881x_analog_clk_gpio;
+	/delete-node/ wsa881x_analog_reset_gpio;
 
 
 	alsa_to_h2w {

@@ -71,12 +71,18 @@
 };
 
 &soc{
+
+	restart@4ab000 {
+		qcom,force-warm-reboot;
+	};
+
 	/delete-node/ uart@78b0000;
 	/delete-node/ uart@7aef000;
 	/delete-node/ i2c@7af5000;
 	/delete-node/ spi@78b7000;
 	/delete-node/ adv_vreg;
 	/delete-node/ sound-9335;
+
 
 	alsa_to_h2w {
 		compatible = "mmi,alsa-to-h2w";

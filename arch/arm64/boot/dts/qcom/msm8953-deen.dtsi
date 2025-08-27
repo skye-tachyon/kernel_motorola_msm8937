@@ -376,6 +376,7 @@
 };
 
 &wled {
+	qcom,wled-stepper-en;
 	qcom,fs-curr-ua = <25000>;
 	qcom,cons-sync-write-delay-us = <1000>;
 	qcom,led-strings-list = [00 01];

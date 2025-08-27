@@ -685,6 +685,15 @@ dtb-$(CONFIG_CEDRIC_DTB) += \
 	msm8937-cedric-p4.dtb \
 	msm8937-cedric-p5.dtb
 
+dtb-$(CONFIG_DEEN_DTB) += \
+	msm8953-deen-evt1.dtb \
+	msm8953-deen-evt2.dtb \
+	msm8953-deen-dvt1a.dtb \
+	msm8953-deen-dvt1b.dtb \
+	msm8953-deen-dvt2.dtb \
+	msm8953-deen-pvt1.dtb \
+	msm8953-deen-pvt2.dtb
+
 dtb-$(CONFIG_HANNAH_DTB) += \
 	msm8917-hannah-p0.dtb \
 	msm8937-hannah-p0.dtb \

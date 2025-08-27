@@ -74,6 +74,11 @@
 	qcom,disable-wake-on-touch;
 };
 
+&flash_led {
+	/delete-property/ qcom,clamp-curr;
+	qcom,clamp-current = <200>;
+};
+
 &soc{
 
 	restart@4ab000 {

@@ -4,7 +4,7 @@
 # Copyright (C) 2020-2024 Adithya R. and Contributors
 
 SECONDS=0 # builtin bash timer
-SUPPORTED_DEVICES=(aljeter aljeter_recovery sanders sanders_recovery)
+SUPPORTED_DEVICES=(aljeter aljeter_recovery deen sanders sanders_recovery)
 
 if [[ " ${SUPPORTED_DEVICES[@]} " =~ " $1 " ]]; then
     DEVICE=$1

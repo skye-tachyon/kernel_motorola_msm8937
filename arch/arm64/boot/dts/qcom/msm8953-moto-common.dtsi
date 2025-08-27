@@ -955,7 +955,7 @@
 };
 
 &pmi_haptic{
-	qcom,actuator-type = "lra";
+	qcom,actuator-type = <1>;
 	qcom,lra-auto-res-mode="none";
 	qcom,wave-shape = "sine";
 	qcom,lra-high-z="opt1";

@@ -295,7 +295,7 @@
 	sound {
 		status = "okay";
 		compatible = "qcom,msm8952-audio-codec";
-		qcom,model = "msm8953-snd-card";
+		qcom,model = "msm8953-snd-card-mtp";
 		qcom,msm-hs-micbias-type = "external";
 		qcom,msm-ext-pa = "quaternary";
 		qcom,msm-mbhc-hphl-swh = <1>;
